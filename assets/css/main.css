@@ -1,0 +1,11 @@
+
+/* global.css */
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
