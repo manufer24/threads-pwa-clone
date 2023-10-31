@@ -20,8 +20,9 @@
                     </button>
 
                     <div
-                     v-if="isMenu" class="absolute border border-gray-600 right-0 z-20 mt-1 rounded">
-                        <button 
+                    v-if="isMenu" class="absolute border border-gray-600 right-0 z-20 mt-1 rounded"
+                    >
+                    <button
                             @click="deletePost(post.id, post.picture)" 
                             class="flex items-center rounded gap-2 text-red-500 justify-between bg-black w-full pl-4 pr-3 py-1 hover:bg-gray-900"
                         >
@@ -98,7 +99,6 @@
 <script setup>
 import { useUserStore } from '~/stores/user';
 const userStore = useUserStore()
-
 
 const runtimeConfig = useRuntimeConfig()
 let isMenu = ref(false)
