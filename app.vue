@@ -29,7 +29,7 @@ useSeoMeta({
   description: 'This is a PWA practice similar to Threads app, you can test some of the functions like create a new post. Have fun testing it.',
   ogDescription: 'This is a PWA practice similar to Threads app, you can test some of the functions like create a new post. Have fun testing it.',
   ogImage: './public/meta-picture.png',
-  twitterCard: './public/meta-picture.png',
+  twitterCard: 'summary_large_image',
 })
 
 const userStore = useUserStore()
